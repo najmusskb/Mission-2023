@@ -67,4 +67,14 @@ student[updateindex] = {
   ...updateData,
 };
 
-console.log(student);
+// console.log("update:", student);
+
+// Delete method
+student.splice(updateindex, 1);
+
+// console.log("delete ", student);
+
+// travers
+for (let stu of student) {
+  console.log(stu);
+}
