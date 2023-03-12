@@ -52,4 +52,19 @@ student.push({
   name: "Imam",
   email: "imam@gmail.com",
 });
+
+// Update a student information
+const idToUpadte = "c4e2f048-5bd3-4965-a466-4dd6cf7f6333";
+const updateData = {
+  name: "Amira Islam",
+  email: "amiraislam@gmail.com",
+};
+
+const updateindex = student.findIndex((item) => item.id === idToUpadte);
+
+student[updateindex] = {
+  id: idToUpadte,
+  ...updateData,
+};
+
 console.log(student);
