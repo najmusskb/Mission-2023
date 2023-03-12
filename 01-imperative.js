@@ -11,8 +11,9 @@ const numbers = [1, 2, 12, 36, 5, 458, 5];
 // numbers.forEach(() => {
 //   console.log();
 // });
-numbers.forEach(function (value) {
-  if (value % 2 === 0) {
-    console.log(value);
-  }
-});
+
+// numbers.forEach(function (value) {
+//   if (value % 2 === 0) {
+//     console.log(value);
+//   }
+// });
